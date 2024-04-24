@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-name {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.failure-view-img {
+  width: 65%;
+  height: 400px;
+}
+
+.failure-view-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
