@@ -1,0 +1,194 @@
+.link-item {
+  text-decoration: none;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 40px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-right: 35px;
+}
+
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffff;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.rating {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-employee-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffff;
+}
+
+.employee-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.employee-type-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffff;
+}
+
+.package {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.line {
+  color: #7e858e;
+  width: 100%;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item {
+    padding: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .rating-icon {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .icon {
+    margin-right: 0px;
+  }
+
+  .location {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  .employee-type-heading {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .package {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .line {
+    margin-bottom: 0px;
+  }
+
+  .description {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .job-description {
+    font-size: 14px;
+  }
+}
