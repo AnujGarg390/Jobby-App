@@ -37,7 +37,7 @@ class CowinDashboard extends Component {
       const updatedData = {
         last7DaysVaccination: fetchedData.last_7_days_vaccination.map(
           eachData => ({
-            vaccineDate: eachData.vaccineDate,
+            vaccineDate: eachData.vaccine_date,
             dose1: eachData.dose_1,
             dose2: eachData.dose_2,
           }),
@@ -120,8 +120,8 @@ class CowinDashboard extends Component {
           <div className="logo-container">
             <img
               className="logo"
-              alt="website logo"
               src="https://assets.ccbp.in/frontend/react-js/cowin-logo.png"
+              alt="website logo"
             />
             <h1 className="logo-name">Co-WIN</h1>
           </div>
